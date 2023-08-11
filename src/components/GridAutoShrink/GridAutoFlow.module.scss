@@ -1,0 +1,14 @@
+.autoFlow {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); // oneliner til at lave et grid der "bryder" og opfører sig som flex.
+    align-items: center;
+    gap: 8px;
+
+    div {
+        width: 200px;
+        height: 200px;
+        display: grid;
+        align-items: center;
+        border: solid 1px white;
+    }
+}

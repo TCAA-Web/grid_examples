@@ -1,0 +1,41 @@
+.gridPositions {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    div {
+        border: solid 1px white;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+.aligLeft{
+    display:grid;
+    align-items: start;
+}
+
+.alignCenter{
+    display: grid;
+    align-items: center;
+}
+
+.alignRight{
+    display:grid;
+    align-items: end;
+}
+
+.justifyLeft{
+    display:grid;
+    justify-content: start;
+}
+
+.justifyRight{
+    display: grid;
+    justify-content: end;
+}
+
+.justifyCenter{
+    display:grid;
+    justify-content: center;
+}

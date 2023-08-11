@@ -1,0 +1,9 @@
+.gridRow {
+    display: grid; // sætter vores container til at være et grid
+    grid-template-rows: 1fr 1fr 1fr; // fr her betyder fractions (fraktioner)
+    gap: 16px; // mellemrum imellem hvert grid
+
+    p{
+        border: solid 2px white;
+    }
+}
